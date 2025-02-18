@@ -39,5 +39,5 @@ Since object files are platform-dependent, you must **compile and run the source
     ./temperature_converter
     ```
 
-This will allow you to interact with each program in the terminal!
+This will allow you to interact with each program in the terminal! To save time, you can quickly run the same program after running it once by hitting the up arrow on your keyboard. This will scroll through your most recent commmand history, which should be `./{object-file-name}`, and allow for easy rerunning of the same program. 
 #### Note: Do not commit any changes to this repository while in Codespaces.
