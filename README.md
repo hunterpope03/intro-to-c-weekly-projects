@@ -1,2 +1,43 @@
 # Intro to C Weekly Projects
-A collection of weekly personal showcase programs that apply knowledge gained from my intro to C programming course. 
+
+In this repository, you will find a collection of short, simple programs written in C. These programs coincide with the **Intro to C Programming** course I'm taking. The main goal of this repository is to track my progress in learning C. In each program, I apply the theory and concepts learned in class that week to create useful (or somewhat useful) programs.
+
+## How to Run Programs
+
+Since object files are platform-dependent, you must **compile and run the source code** yourself. Follow these steps:
+
+### 1) Open GitHub Codespaces
+* In this repository, click the green **_< > Code_** button.
+* In the dropdown menu, click the **_Codespaces_** tab.
+* Click the **_+_** symbol to create a new Codespace.
+
+### 2) Navigate to a Directory
+* Once you're inside the cloud development environment, open the **_terminal_** and navigate to the directory of the project you wish to run:
+    ```bash
+    cd {week-number-folder}/{project-name-folder}
+    ```
+    Example: 
+    ```bash
+    cd week-3-data-in-c/temperature-converter
+    ```
+
+* Use `gcc` (pre-installed by default) to compile the C source file into an object file:
+    ```bash
+    gcc {file_name}.c -o {object_file_name}
+    ```
+    Example:
+    ```bash
+    gcc temperature_converter.c -o temperature_converter
+    ```
+
+* Run the compiled object file:
+    ```bash
+    ./{object_file_name}
+    ```
+    Example:
+    ```bash
+    ./temperature_converter
+    ```
+
+This will allow you to interact with each program in the terminal!
+#### Note: Do not commit any changes to this repository while in Codespaces.
