@@ -4,7 +4,7 @@ In this repository, you will find a collection of short, simple programs written
 
 ## How to Run Programs
 
-Since object files are platform-dependent, you must **compile and run the source code** yourself. You can do so on your local machine, or follow these steps to take advantage of GitHub Codespaces, a cloud development environments:
+Since object files are platform-dependent, you must **compile and run the source code** yourself. You can do so on your local machine, or follow these steps to take advantage of GitHub Codespaces, a secure cloud development environment built into GitHub:
 
 ### 1) Open GitHub Codespaces
 * In this repository, click the green **_< > Code_** button.
