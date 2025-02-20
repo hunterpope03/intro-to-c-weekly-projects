@@ -2,46 +2,66 @@
 * Auth: Hunter Pope
 * Date: 2/11/25
 * Title: Data Type Size Visualizer
-* Description: Displays the size (in bytes) and range of the primitive data types in c with and without format specifiers. 
+* Description: Displays the size (in bytes) and range of the primitive data types in C with and without format specifiers. 
 * NOTE: Assumes a 64-bit system architecture.
 */
-// Online C compiler to run C program online
 #include <stdio.h>
 
 void print_menu(void) {
-    printf("*** Data Type Size Visualizer\n\n");
-    printf("This program will offer information and display visualizations of the primitive data types in C. To achieve this, it will display:\n\n");
-    printf("\t• Each primitive data type, size, and range once at a time\n");
-    printf("\t• Every primitive data type with applicable format specifiers\n");
-    printf("\t• Visualizations for each bit size\n");
+    printf("*** Data Type Size Visualizer ***" "\n\n");
+    printf("This interactive program will offer insight into some of the basic data types commonly used in C." "\n");
+    printf("To meet this end, this program will display:" "\n\n\t");
+    printf("• Each primitive data type, size, and range of possible values," "\n\t");
+    printf("• Each primitive data type with applicable format specifiers and their type, size, and range," "\n\t");
+    printf("• And visualizations for each byte size to see how data types and specifiers change the bit size of a variable" "\n\n");
+    printf("*NOTE: These values correspond with a 64-bit system which most computers are today." "\n\n");
+}
+
+
+void begin_program(void) {
+    char null[100] = {0};
+    printf("Enter anything to begin: ");
+    scanf("%c", null);
 }
 
 void continue_program(void) {
     char null[100] = {0};
-    printf("\nEnter anything to continue: ");
+    printf("Enter anything to begin: ");
     scanf("%c", null);
 }
 
 void print_char(void) {
-    int car = 1;
-    printf("\n** char **");
-    printf("\n\n• A char is the smallest data type in C and is signed by default.");
-    printf("\n\n`char` OR `signed char` \tSIZE: 1 byte\tRANGE: [-128 - 127]\n\t");
-    for (int i = 0; i < car; i++) {
-        printf("_\t ('_' represents 1 byte)") ;
+    int character = 1;
+    printf("\n\n" "*** `char` ***" "\n\n");
+    
+    printf("• A `char` is the smallest data type in C and is not actually signed or unsigned by default - its signedness is implementation-defined." "\n\n");
+    
+    printf("\t" "`char` SIZE: 1 byteRANGE: undefined");
+    for (int i = 0; i < character; i++) {
+        printf(" ('_' represents 1 byte)") ;
     }
-    printf("\n\n`unsigned char` \tSIZE: 1 byte\tRANGE: [0 - 255]\n\t");
-    for (int i = 0; i < car; i++) {
+    printf("\t" "`signed char` SIZE: 1 byteRANGE: [-128 - 127]");
+    for (int i = 0; i < character; i++) {
+        printf(" ('_'") ;
+    }
+    printf("\t" "`unsigned char` SIZE: 1 byteRANGE: [0 - 255]");
+    for (int i = 0; i < character; i++) {
         printf("_");
     }
 }
 
+void print_int(void) {
+    
+}
+
 int main(void) {
     print_menu();
-    
-    continue_program();
-    
+    begin_program();
     print_char(); 
+    continue_program();
+    print_int();
+
+    
     return 0;
 }
 
