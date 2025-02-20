@@ -2,10 +2,10 @@
 
 In chapter 3, we overviewed the basic principles of data in C. The main topics were: 
 
-* Variables and Constants
-* Primitive Data Types (`int`, `float`, `char`)
-* Type Modifiers (`short`, `long`, `signed`, `unsigned`)
-* Memory Usage & Interaction
+* Variables and constants
+* Primitive data types (`int`, `float`, `char`)
+* Type modifiers (`short`, `long`, `signed`, `unsigned`)
+* Memory usage & interaction
 
 ## Programs
 
