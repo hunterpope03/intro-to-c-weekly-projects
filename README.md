@@ -1,6 +1,6 @@
 # Intro to C Weekly Projects
 
-In this repository, you will find a collection of short, simple programs written in C. These programs coincide with the **Intro to C Programming** course I'm taking. The main goal of this repository is to track my progress in learning C. In each program, I apply the theory and concepts learned in class that week to create useful (or somewhat useful) programs.
+In this repository, you will find a collection of short, simple programs written in C. These programs coincide with the **Intro to C Programming** course I'm taking. The main goal of this repository is to track my progress in learning C and help apply the knowledge I gain in each class to a real project.
 
 ## How to Run Programs
 
